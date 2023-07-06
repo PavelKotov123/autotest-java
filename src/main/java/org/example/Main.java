@@ -16,13 +16,13 @@ public class Main {
 
 
         WebElement inputphone = driver.findElement(By.xpath("//*[@id=\"index_email\"]"));
-        inputphone.sendKeys("ADSL153760");
+        inputphone.sendKeys("");
 
         WebElement clickBtnVk= driver.findElement(By.xpath("//*[@id=\"index_login\"]/div/form/button"));
         clickBtnVk.click();
 
         WebElement inputPass = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div/div/div[1]/div[2]/div/div/div/form/div[1]/div[3]/div[1]/div/input"));
-        inputPass.sendKeys("89229015935pavel");
+        inputPass.sendKeys("");
 
         WebElement enterBtn = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div/div/div[1]/div[2]/div/div/div/form/div[2]/button"));
         enterBtn.click();
